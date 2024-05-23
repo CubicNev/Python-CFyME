@@ -1,6 +1,6 @@
 # Python-CFyME
 
-Curso que maneja conceptos como funciones, comprehensions, errores y manejo de archivos.
+Curso de Python 🐍 que maneja conceptos como funciones, comprehensions, errores y manejo de archivos.
 
 Impartido por: Nicolas Molina
 By: Platzi
@@ -9,10 +9,10 @@ By: Platzi
 
 ### Zen de Python
 
-Filosofía sobre la que se contruye Python. Se empieza importando `this` (sin albur)
+Filosofía sobre la que se contruye Python. Se empieza importando `this` (sin albur).
 
 ```python
-import this # Easter Egg!
+import this # Easter Egg! 🐰🥚
 ```
 
 Al hacerlo se nos desplegará lo siguiente:

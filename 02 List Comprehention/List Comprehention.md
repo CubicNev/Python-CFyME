@@ -10,4 +10,3 @@ Se usan ls corchetes cuadrados, y se divide en dos partes:
 - Un ciclo de dónde se extraerán elementosde cualquier iterable.
 
 **[** elemento `for` elemento `in` iterable **]**
-
