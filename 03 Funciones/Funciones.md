@@ -13,12 +13,18 @@ Se usa la palabra clave `def` seguida del nombre de la funci처n y unos parentes�
 ```python
 def funcion(a, b):
     c = a + b
-    return c
+    print("La suma es", c)
 ```
 
 Se usa la identaci처n para definir el bloque de c처digo que conforma a la funci처n.
 
 Una funci처n puede dar datos de salida, usando la palabra calve `return`
+
+```python
+def funcion(a, b):
+    c = a + b
+    return c
+```
 
 ## Llamar a una funci처n
 
