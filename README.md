@@ -1,9 +1,20 @@
 # Python-CFyME
 
-Curso de Python 🐍 que maneja conceptos como funciones, comprehensions, errores y manejo de archivos.
+Curso de Python 🐍 que maneja conceptos como funciones, comprehensions, errores y manejo de archivos. Este repositorio incluye mis notas y prácticas llevadas a traves del curso.
 
 Impartido por: Nicolas Molina
 By: Platzi
+
+## Contents
+
+1. [Conjuntos](./01%20Conjuntos/)
+    1. [Introduccion a conjuntos](./01%20Conjuntos/Conjuntos.md)
+2. [Comprehentions](./02%20Comprehentions/)
+    1. [List Comprehentions](./02%20Comprehentions/List%20Comprehention.md)
+    2. [Dictionary Comprehentios](./02%20Comprehentions/Dictionary%20Comprehentions.md)
+    3. [Comparando colecciones](./02%20Comprehentions/List-Tuple-Set.md)
+3. [Funciones](./03%20Funciones/)
+    1. [Hablando sobre funciones](./03%20Funciones/Funciones.md)
 
 ## Brief Introduction
 
