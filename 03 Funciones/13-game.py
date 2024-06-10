@@ -63,6 +63,16 @@ def check_rules(user_option, computer_option, user_wins, computer_wins):
 
     return user_wins, computer_wins
 
+def who_wins(user_wins, computer_wins):
+    if computer_wins == 2:
+        print(' COMPUTER WINS!!!!')
+        return True
+    elif user_wins == 2:
+        print(' COMPUTER WINS!!!!')
+        return True
+    else:
+        return False
+
 def run_game():
     # Opciones:
     rounds = 1
@@ -82,12 +92,7 @@ def run_game():
 
         user_wins, computer_wins = check_rules(user_option, computer_option, user_wins, computer_wins)
 
-        if computer_wins == 2:
-            print(' COMPUTER WINS!!!!')
-            break
-        elif user_wins == 2:
-            print(' COMPUTER WINS!!!!')
-            break
+        if who_wins(user_wins,computer_wins): break
 
         rounds += 1
 

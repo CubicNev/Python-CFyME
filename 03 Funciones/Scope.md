@@ -20,6 +20,30 @@ suma(2,3)
 
 En el ejemplo la variable `c` solo existe dentro de la función y no se puede acceder a ella fuera.
 
+Si la función tiene otra función adentro, esta función de adetro tendra acceso a las variables locales de la primera.
+
+```python
+def myfunc():
+  x = 300
+  def myinnerfunc():
+    print(x)
+  myinnerfunc()
+```
+
+### La palabra clave `nonlocal`
+
+Se usa para manipular variables adentro de funciones anidadas, hace que se indique que la variable pertenece a la función exterior.
+
+```python
+def myfunc1():
+  x = "Jane"
+  def myfunc2():
+    nonlocal x
+    x = "hello"
+  myfunc2()
+  return x
+```
+
 ## Global Scope
 
 Se crea en una parte externa a una función, y esta puede ser usada tanto dentro de funciones como fuera. Siempre y cuando se encuentre en el mismo archivo de código.
@@ -34,8 +58,8 @@ imprime(c)
 ```
 
 > 📝 **Nota:** La variable `c` puede ser consultada más no alterada. Si, por ejemplo, intentas hacer `c = "Adios"` dentro de la función soltará el error `UnboundLocalError`
->
-> Se presenta el caso donde se tienen dos variables (una local y otra global) con el mismo nombre, se toman como variables separadas por lo que debe ambas deber ser inicializadas por separado
+
+Si se presenta el caso donde se tienen dos variables (una local y otra global) con el mismo nombre, se toman como variables separadas por lo que debe ambas deber ser inicializadas por separado
 
 ```python
 c = "Hola"
@@ -48,7 +72,7 @@ imprime(c)
 print('c')
 ```
 
-### El comando `global`
+### La palabra clave `global`
 
 La palabra clave `global` se usa dentro de funciónes para hacer que variables locales sean globales.
 
