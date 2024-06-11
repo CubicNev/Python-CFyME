@@ -3,21 +3,34 @@ Funciones lambda
 Autor: Carlos Nevárez - CubicNev
 Fecha de creación: Mon 10-Jun-2024
 
-Uso básico de lambdas
+Uso de lambdas, ejemplo con dos funciónes que hacen exactamente lo mismo.
 """
-def increment(x):
+
+'''
+Función que incrementa un valor
+Entrada: x
+Salida: x + 1
+'''
+# Función tradicional
+def incrementa(x):
     return x + 1
 
+# Función lambda
+incrementaLmd = lambda x : x + 1
 
-increment_v2 = lambda x: x + 1
-
-result = increment(10)
-print(11)
-
-result = increment_v2(20)
+result = incrementa(10)
 print(result)
 
-full_name = lambda name, last_name: f'Full name is {name.title()} {last_name.title()}'
+result = incrementaLmd(20)
+print(result)
+
+
+'''
+Función lambda que recibe más de un argumento, imprime el nombre completo con mayusculas
+Entrada: nombre, apellidos
+Salida: Nombre completo con formato
+'''
+full_name = lambda name, last_name : f'Full name is {name.title()} {last_name.title()}'
 
 text = full_name('nicolas', 'perez casas')
 print(text)

@@ -15,6 +15,9 @@ By: Platzi
     3. [Comparando colecciones](./02%20Comprehentions/List-Tuple-Set.md)
 3. [Funciones](./03%20Funciones/)
     1. [Hablando sobre funciones](./03%20Funciones/Funciones.md)
+    2. [Funciones lambda](./03%20Funciones/Lambdas.md)
+    3. [Higher Order Function (HOF)](./03%20Funciones/HOF.md)
+    4. [Map](./03%20Funciones/Map.md)
 
 ## Brief Introduction
 
