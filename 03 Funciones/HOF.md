@@ -135,4 +135,14 @@ print(add_15(10)) # 25
 
 > Más info en [Higher Order Functions in Python][1]
 
+## Usos
+
+Las princiapales funciones de manaipulación de listas (o iterables en general) utilizan este concepto para funcionar. Estas se ven más adelante, y son:
+
+- Map
+- Filter
+- Reduce
+
+<!-- Referencias -->
+
 [1]: <https://www.geeksforgeeks.org/higher-order-functions-in-python/> "Higher Order Functions in Python"

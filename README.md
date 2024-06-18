@@ -18,6 +18,8 @@ By: Platzi
     2. [Funciones lambda](./03%20Funciones/Lambdas.md)
     3. [Higher Order Function (HOF)](./03%20Funciones/HOF.md)
     4. [Map](./03%20Funciones/Map.md)
+    5. [Filter](./03%20Funciones/Filter.md)
+    6. [Reduce](./03%20Funciones/Reduce.md)
 
 ## Brief Introduction
 
