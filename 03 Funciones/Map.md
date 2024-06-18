@@ -170,7 +170,6 @@ print(new_items)
 
 Este es mi aporte teniendo en cuenta algunas soluciones que plantearon otros compañeros, hago uso del ** para desempaquetar el diccionario, recomiendo leer más acerca de esta característica puesto que su uso es variado:
 
-
 ```python
 items = [
   {

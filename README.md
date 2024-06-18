@@ -20,6 +20,7 @@ By: Platzi
     4. [Map](./03%20Funciones/Map.md)
     5. [Filter](./03%20Funciones/Filter.md)
     6. [Reduce](./03%20Funciones/Reduce.md)
+4. [Módulos](./04%20Modulos/Modulos.md)
 
 ## Brief Introduction
 
