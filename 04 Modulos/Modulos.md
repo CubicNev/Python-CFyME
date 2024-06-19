@@ -127,6 +127,6 @@ Para hacer que al ejecutar un archivo con la dualidad de ser un script pero a la
 
 Este `if` le dice al archivo main.py que si es ejecutado desde terminal, ejecute el método run().
 
-<!-- ]Referencias -->
+<!-- Referencias -->
 
 [1]: <https://www.w3schools.com/python/python_modules.asp> "Python Modules"

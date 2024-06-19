@@ -1,4 +1,4 @@
-# Python-CFyME
+# Curso de Python: Comprehensions, Funciones y Manejo de Errores
 
 Curso de Python 🐍 que maneja conceptos como funciones, comprehensions, errores y manejo de archivos. Este repositorio incluye mis notas y prácticas llevadas a traves del curso.
 
@@ -21,6 +21,7 @@ By: Platzi
     5. [Filter](./03%20Funciones/Filter.md)
     6. [Reduce](./03%20Funciones/Reduce.md)
 4. [Módulos](./04%20Modulos/Modulos.md)
+    1. [Paquetes](./04%20Modulos/Paquetes.md)
 
 ## Brief Introduction
 

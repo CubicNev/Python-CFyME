@@ -28,5 +28,6 @@ def run():
     result = utils.population_by_country(data, country)
     print(result)
 
+# Alternativa para ejecutar archivo como script
 if __name__ == '__main__':
     run()
