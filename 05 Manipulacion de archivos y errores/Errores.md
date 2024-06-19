@@ -81,6 +81,43 @@ El bloque `else` te permite ejecutar codigo cuando no hay errores.
 
 El bloque `finally` te permite ejecutar codigo sin importar el resultado de los bloques `try-except`
 
+### Ejemplo
+
+Se maneja el error segun las reglas de negocio.
+
+```python
+try:
+    age = 10
+    # Si la edad es menor a 18 lanza un error (Regla de Negocio)
+    if age < 18:
+        raise Exception('No se permite menores de edad') # Lanzara un error
+except Exception as error:
+    print(error)
+```
+
+## Varias excepciones
+
+Puedes poner tantos bloques de exepciones (`except`) como necesites y hasta poner uno que maneje un error general si no incluyes el tipo de error a manejar.
+
+```python
+# Se imprime un mensaje si ocurre NameError y otro mensaje con otros erroees
+try:
+  print(x)
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Something else went wrong")
+```
+
+## Funcionalidad
+
+A primera vista podemos pensar que lanzar Excepciones no sirve de nada si al final igual ahí mismo las vamos a rodear de un try-except. Pero es más util cuando estamos creando funciones en modulos que van a ser usadas por otros módulos, funciones que dependiendo del uso que se le de en una u otra parte del código del proyecto tienen que hacerse diferentes validaciones para ese "error". Generar excepciones OBLIGA al equipo a manejarlos porque sino, el proyecto no va a funcionar.
+
+Pueden encontrar más de cómo personalizar y manejar las excepciones en la [documentación de python][2]
+
+Recomiendo buscar también sobre propagación de excepciones
+
 <!-- Referencias -->
 
 [1]: <https://www.w3schools.com/python/python_ref_exceptions.asp> "Python Built-in Exceptions"
+[2]: <https://docs.python.org/es/3/tutorial/errors.html#> "Errores y excepciones"

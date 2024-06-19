@@ -22,6 +22,10 @@ By: Platzi
     6. [Reduce](./03%20Funciones/Reduce.md)
 4. [Módulos](./04%20Modulos/Modulos.md)
     1. [Paquetes](./04%20Modulos/Paquetes.md)
+5. [Manipulación de archivos y errores](./05%20Manipulacion%20de%20archivos%20y%20errores/)
+    1. [Iterables](./05%20Manipulacion%20de%20archivos%20y%20errores/Iterables.md)
+    2. [Errores en Python](./05%20Manipulacion%20de%20archivos%20y%20errores/Errores.md)
+    3.
 
 ## Brief Introduction
 
