@@ -25,7 +25,9 @@ By: Platzi
 5. [Manipulación de archivos y errores](./05%20Manipulacion%20de%20archivos%20y%20errores/)
     1. [Iterables](./05%20Manipulacion%20de%20archivos%20y%20errores/Iterables.md)
     2. [Errores en Python](./05%20Manipulacion%20de%20archivos%20y%20errores/Errores.md)
-    3.
+    3. [Manejo de archivos](./05%20Manipulacion%20de%20archivos%20y%20errores/Archivos.md)
+6. [Gráficas](./06%20Graficacion/)
+    1. [Gráficas en Python](./06%20Graficacion/Gráficas.md)
 
 ## Brief Introduction
 

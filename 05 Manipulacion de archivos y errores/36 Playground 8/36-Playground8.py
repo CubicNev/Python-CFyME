@@ -18,5 +18,5 @@ def read_csv(path):
             total += int(row[1])
     return total
 
-response = read_csv('./Python/Python-CFyME/05 Manipulacion de archivos y errores/36 Playground 7/data.csv')
+response = read_csv('./data.csv')
 print(response)

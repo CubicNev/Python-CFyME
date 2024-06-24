@@ -1,4 +1,4 @@
-# Playground 7: Lee un CSV para calcular el total de gastos
+# Playground 8: Lee un CSV para calcular el total de gastos
 
 Para resolver este desafío, debes utilizar el archivo [`data.csv`](data.csv) que contiene los datos de los gastos de una empresa. El archivo tiene dos columnas: el nombre del área y el total de gastos del año.
 

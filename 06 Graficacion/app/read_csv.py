@@ -1,15 +1,11 @@
 """
-Leer CSV
+Lector de CSV
 Autor: Carlos Nevárez - CubicNev
-Fecha de creación: Fri 21-Jun-2024
+Fecha de creación: Mon 24-Jun-2024
 
-Se lee un archivo CSV para procesar la información que contiene.
-world_population.csv: Rank (Rango del país), CCA3 (Abreviatura), Country, Capital, Continent, 2022 Population, 2020, 2015, 2010, 1990, 1970,
-Area (km2), Density, World Population Percetage
-
-Se lee y procesa información para seleccionar un país y graficar su información
-
+Módulo encargado de extraer infromación del archivo CSV "data.csv"
 """
+
 import csv
 
 # Función para leer el archivo
