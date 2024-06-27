@@ -3,7 +3,7 @@ Utilidades para manejar datos poblacionales obtenidos de data.csv
 Autor: Carlos Nevárez - CubicNev
 Fecha de creación: Wed 26-Jun-2024
 
-Se tienen funcionalidades para usar luego
+Se tienen funcionalidades para tratamiento de datos
 """
 # Para enviar datos de crecimiento poblacional a gráfica de barras
 # Entrada: País seleccionado en forma de diccionario
@@ -22,6 +22,19 @@ def get_population(country_dict):
     labels = population_dict.keys()
     values = population_dict.values()
     return labels, values
+
+# Solucion propia
+def extract_all_anual_population(data):
+    datos_poblacionales = []
+    # recorre los datos de cada país
+    for country in data:
+        # Hace un diccionario tomando unicamente los datos de poblacion anual
+        # Formatea para solo tomar el año y pasa la poblacion a entero
+        population = {year[0:4]:int(amount) for (year, amount) in country.items() if str(year).endswith('Population')}
+        datos_poblacionales.append(population)
+    return datos_poblacionales
+
+def get_anual_population(country_dict): return {year[0:4]:int(amount) for (year, amount) in country_dict.items() if str(year).endswith('Population')}
 
 # Obtener la información de un país en especifico, dada una lista de países (lista de diccionarios)
 def population_by_country(data, country):

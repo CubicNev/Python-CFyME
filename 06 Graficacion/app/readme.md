@@ -54,7 +54,7 @@ def extract_anual_population(data):
     return datos_poblacionales
 ```
 
-> 📝 **Nota:** Esta funcion se implemento en [read_csv.py](read_csv.py)
+> 📝 **Nota:** Esta funcion se implemento en [read_csv.py](utils.py)
 
 Otra solución es recibiendo unicamente la información de un país, y a partir de ese extraer unicamento los datos de crecimiento poblacional de forma "manual".
 
@@ -77,3 +77,10 @@ def get_population(country_dict):
 ```
 
 > 📝 **Nota:** Esta adición se hizo en [utils.py](./utils.py)
+
+La primera opcion reacondicionada a funcionar como la segunda opcion.
+
+```python
+def get_anual_population(country_dict):
+    return {year[0:4]:int(amount) for (year, amount) in country_dict.items() if str(year).endswith('Population')}
+```

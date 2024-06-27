@@ -20,9 +20,15 @@ def run():
     result = utils.population_by_country(data, country)
 
     # Valida que se haya encontrado un resultado
-    if result > 0:
+    if len(result) > 0:
+        country_res = result[0]
+        # Prueba de funcion propia
+        # print(utils.get_anual_population(country_res))
+
         # Extrae la infomación que necesitamos
-        keys, values = utils.get_population(result)
+        labels, values = utils.get_population(country_res)
+        # Grafica información
+        charts.generate_bar_chart(labels, values)
 
 if __name__ == '__main__':
     run()

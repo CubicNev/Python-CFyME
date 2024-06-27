@@ -28,17 +28,6 @@ def read_csv(path):
             data.append(country_dict)
         return data
 
-# Solucion propia
-def extract_anual_population(data):
-    datos_poblacionales = []
-    # recorre los datos de cada país
-    for country in data:
-        # Hace un diccionario tomando unicamente los datos de poblacion anual
-        # Formatea para solo tomar el año y pasa la poblacion a entero
-        population = {year[0:4]:int(amount) for (year, amount) in country.items() if str(year).endswith('Population')}
-        datos_poblacionales.append(population)
-    return datos_poblacionales
-
 # Correr el archivo como script
 if __name__ == '__main__':
     data = read_csv('./data.csv')
