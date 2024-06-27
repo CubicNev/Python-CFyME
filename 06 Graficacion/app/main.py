@@ -9,6 +9,7 @@ import utils
 import read_csv
 import charts
 
+# Reto 1
 def run():
     # Se leen datos
     data = read_csv.read_csv('./data.csv')
@@ -30,5 +31,28 @@ def run():
         # Grafica información
         charts.generate_bar_chart(labels, values)
 
+# Reto 2 (Solución propia)
+def pie():
+    # Se leen datos
+    data = read_csv.read_csv('./data.csv')
+    # Se extrae el países y porcentaje de población muldial correspondiente
+    labels, values = utils.get_world_population_percentage(data)
+    # Grafica de pastel
+    charts.generate_pie_chart(labels, values)
+
+# Reto 2 (Solución de clase)
+def yourRun():
+    # Se leen datos
+    data = read_csv.read_csv('./data.csv')
+    # Filtrado por contienente
+    data = list(filter(lambda country : country['Continent'] == 'South America', data))
+    # Trae el nombre del país
+    countries = list(map(lambda country: country['Country'], data))
+    # Trae los porcentajes de población mundial
+    percentages = list(map(lambda percentage: percentage['World Population Percentage'], data))
+    charts.generate_pie_chart(countries, percentages)
+
+
 if __name__ == '__main__':
-    run()
+    # Nota se hicieron varias funciones ya que plt.show() detiene el programa
+    yourRun()

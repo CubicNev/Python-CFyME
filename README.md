@@ -28,6 +28,7 @@ By: Platzi
     3. [Manejo de archivos](./05%20Manipulacion%20de%20archivos%20y%20errores/Archivos.md)
 6. [Gráficas](./06%20Graficacion/)
     1. [Gráficas en Python](./06%20Graficacion/Gráficas.md)
+    2. [Reto: Graficando infromación poblacional](./06%20Graficacion/app/readme.md)
 
 ## Brief Introduction
 
@@ -88,3 +89,8 @@ Si la implementación es difícil de explicar, es una mala idea.
 Si la implementación es fácil de explicar, puede que sea una buena idea.
 Los espacios de nombres son una gran idea, ¡tengamos más de esos!
 ```
+
+## Otros proyectos del curso
+
+- [Población de un país por año y de países por continente](https://replit.com/@scuartasr/102reto?v=1#reto_2/utils.py)
+- [Clasificación de pacientes por nivel de glucosa en la sangre](https://github.com/aencardenas/Health)

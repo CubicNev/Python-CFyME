@@ -5,7 +5,7 @@ A partir de la información de `[data.csv](./data.csv)`. Gráficar la informaci�
 - Seleccionar solo la información poblacional, ignorando todo lo demás.
 - Permitir ver el crecimiento poblacional del país a traves de los años con un **Bar Chart**
 
-## Puntos clave
+## Reto 1
 
 - Los datos del CCV se extraen y se pasan a un formato de diccionario, en el módulo [read_csv.py](./read_csv.py).
 
@@ -83,4 +83,45 @@ La primera opcion reacondicionada a funcionar como la segunda opcion.
 ```python
 def get_anual_population(country_dict):
     return {year[0:4]:int(amount) for (year, amount) in country_dict.items() if str(year).endswith('Population')}
+```
+
+## Reto 2: Graficando población mundial
+
+Selecciona datos de una columna específica y graficarlos en una gráfica de pastel. Se selecciona la columna *`World Population Percentage`*.
+
+Se propone la siguiente solución dentro del módulo [`utils.py`](utils.py)
+
+```python
+def get_world_population_percentage(data):
+    # Paises
+    labels = [country['Country'] for country in data]
+    # Porcentajes de poblacion mundial
+    values = [float(country['World Population Percentage']) for country in data]
+    return labels, values
+```
+
+Se extraen los países y los porcentajes para depués poder pasarlo a la función `generate_pi_chart()` del módulo [`charts.py`](charts.py)
+
+---
+
+La solución dada en clase consiste en el siguiente código
+
+```python
+# Reto 2 (Solución de clase)
+def yourRun():
+    # Se leen datos
+    data = read_csv.read_csv('./data.csv')
+    # Trae el nombre del país
+    countries = list(map(lambda country: country['Country'], data))
+    # Trae los porcentajes de población mundial
+    percentages = list(map(lambda percentage: percentage['World Population Percentage'], data))
+    charts.generate_bar_chart(countries, percentages)
+```
+
+Se seleccionan las columnas usando [maps](./../../03%20Funciones/Map.md) usando una lambda function, y luego se hace un parseo a listas.
+
+Para mejorar la visualización de los datos se puede reducir los países por contienente.
+
+```python
+data = list(filter(lambda country : country['Continent'] == 'South America', data))
 ```

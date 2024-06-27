@@ -40,3 +40,11 @@ def get_anual_population(country_dict): return {year[0:4]:int(amount) for (year,
 def population_by_country(data, country):
     result = list(filter(lambda item: item['Country'] == country, data))
     return result
+
+# Solución propia a Reto 2
+def get_world_population_percentage(data):
+    # Paises
+    labels = [country['Country'] for country in data]
+    # Porcentajes de poblacion mundial
+    values = [float(country['World Population Percentage']) for country in data]
+    return labels, values
