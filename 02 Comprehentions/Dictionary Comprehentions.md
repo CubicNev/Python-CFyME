@@ -1,5 +1,7 @@
 # Dictionary Comprehetions
 
+[◀️](./../README.md)
+
 Mismo concepto que [List Comprehentions](List%20Comprehention.md), creación de diccionarios de forma simple y rápida a partir de otras colecciones.
 
 ## Sintaxis

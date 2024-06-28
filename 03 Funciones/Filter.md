@@ -1,5 +1,7 @@
 # Filter
 
+[◀️](./../README.md)
+
 Es una función que nos sirve para filtrar elementos de una lista. Selecciona ciertos elementos para que pertenezcan a una lista.
 
 Por ejemplo, a la lista [🍔,🍗,🍿,🍟] se le aplica un filtro para obtener los elementos que son vegetarianos y se obtiene [🍿,🍟]. En este caso obtuvimos una lista con dos elementos, peor se puede dar el caso que tengamos una lista con cero elementos.

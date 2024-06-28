@@ -1,5 +1,7 @@
 # Errores en Python
 
+[◀️](./../README.md)
+
 Python arroja errores bajo ciertas circunstancias, por ejemplo, cuando dividimos entre cero, cuando tenemos un error de sintaxis o el visto anteriormente que se excede el límite de iteración.
 
 > ⚠️ **Cuidado:**  Cada vez que hay un error, el programa termina, se detiene la ejecución. Se deben manejar los errores

@@ -1,5 +1,7 @@
 # Funciones anónimas: lambda λ
 
+[◀️](./../README.md)
+
 Son funciones especiales que brindan una gran versatilidad a la hora de declarar funciones. Se maneja cierta sintaxís para estás funciones.
 
 Una fución tradicional tiene una entrada y una salida, por ejemplo:

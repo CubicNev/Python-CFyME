@@ -1,5 +1,7 @@
 # Higher order function (HOF): una función dentro de otra función
 
+[◀️](./../README.md)
+
 Se traduce a "Funciones de Grado Superior". Se refiere a que a una función le enviamos otra función y la ejecutemos desde ahí. Normalmente mandamos variables como atributos de una función, pero también podemos mandar una función como atributo y ejecutarla dentro de la función que la recibe.
 
 ## Ejemplo

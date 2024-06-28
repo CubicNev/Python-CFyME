@@ -1,5 +1,7 @@
 # Reduce
 
+[◀️](./../README.md)
+
 Es de la última funcion de manipulacion de listas que veremos, ya vimos Map y Filter. Trata de reducir algo a un solo valor.
 
 Por ejemplo, con la lista [🍔,🍗,🍿,🍟], esta lista de comida se procesa y se expresa a un solo valor: 💩

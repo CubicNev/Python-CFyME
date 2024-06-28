@@ -1,5 +1,7 @@
 # Iterables
 
+[◀️](./../README.md)
+
 En vez de manejar una iteracion de forma automatica con un for, recorriendo de inicio a fin, se puede avanzar en una iteración de forma manual llendo uno por uno de forma secuencial. Esto, por ejemplo, con `range()` se debe convertir en un objeto iterable e ir recorriendolo con la función `next()`.
 
 ```python

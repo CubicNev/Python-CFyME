@@ -1,5 +1,7 @@
 # Playground 6: Calcular la suma de todas las compras
 
+[◀️](./../README.md)
+
 En este desafío, se te presenta una lista de objetos que representan órdenes de compra con los siguientes atributos:
 
 - customer_name: `string`

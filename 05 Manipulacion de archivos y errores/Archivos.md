@@ -1,5 +1,7 @@
 # Manipulación de archivos
 
+[◀️](./../README.md)
+
 Python permite la lectura y escritura de distintos archivos (por ejemplo los `.txt`)
 
 ## Abrir un archivo

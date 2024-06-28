@@ -1,5 +1,7 @@
 # El Scope
 
+[◀️](./../README.md)
+
 Traducido significa "el alcance". Se refiere a hasta dónde llega el alcance de las variables cuando las creamos o definimos funciones. Una variable solo esat disponible en dónde fue construida. En el siguiente diagrama se explica mejor la idea.
 
 ![Scope de python](./../Assets/Scope.png)

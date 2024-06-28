@@ -1,5 +1,7 @@
 # Módulos
 
+[◀️](./../README.md)
+
 Permiten modularizar una aplciación y encerrar funcionalidades en diferentes archivos. Un módulo en Python 🐍 puede ser un archivo `.py`. Considera que un modulo es similar a una libreria de código.
 
 Python como lenguaje, viene con módulos. Algunos son:

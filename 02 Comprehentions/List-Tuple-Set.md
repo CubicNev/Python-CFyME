@@ -1,5 +1,7 @@
 # Lists vs. Tuples vs. Sets
 
+[◀️](./../README.md)
+
 Para finalizar con las estrucutras de datos, se comparan las estructuras que sirven manejar cantidades de varios elementos de información: listas, tuplas y conjuntos.
 
 | | Mutable | Ordenada | Indexing/Slicing | Duplicar elementos |

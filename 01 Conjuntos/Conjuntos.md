@@ -1,5 +1,7 @@
 # Conjuntos
 
+[◀️](./../README.md)
+
 Un conjunto agrupa elementos que tienen algo en común. Por ejemplo, un conjunto de países.
 
 ```text

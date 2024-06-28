@@ -28,7 +28,7 @@ By: Platzi
     3. [Manejo de archivos](./05%20Manipulacion%20de%20archivos%20y%20errores/Archivos.md)
 6. [Gráficas](./06%20Graficacion/)
     1. [Gráficas en Python](./06%20Graficacion/Gráficas.md)
-    2. [Reto: Graficando infromación poblacional](./06%20Graficacion/app/readme.md)
+    2. [Reto: Graficando información poblacional](./06%20Graficacion/app/readme.md)
 
 ## Brief Introduction
 

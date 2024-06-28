@@ -1,5 +1,7 @@
 # Proyecto final del curso: Gráficar la población de un país
 
+[◀️](./../../README.md)
+
 A partir de la información de `[data.csv](./data.csv)`. Gráficar la información de un país.
 
 - Seleccionar solo la información poblacional, ignorando todo lo demás.

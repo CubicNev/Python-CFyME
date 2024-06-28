@@ -1,5 +1,7 @@
 # Funciones
 
+[◀️](./../README.md)
+
 Una función es un bloque de código que se ejecuta cuando se llama, se pueden hacer llamadas a funciones multiples veces y en muchos puntos. Contiene un espacio al que le pueden pasar datos de entrada, conocidos como **parámetros**, y puede regresar datos de salida, resultado de las operaciones hechas dentro de la función.
 
 Con la funciones se cumple **el principio DRY** (*Don't Repeat Yourself), que consiste en no repetir un bloque de código con la misma lógica una y otra vez, al tener funciónes que nos ahorrran el estar escribiendo las mismas instrucciones una y otra vez, tenemos un código más limpio y escalable.

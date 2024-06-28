@@ -1,5 +1,7 @@
 # Map
 
+[◀️](./../README.md)
+
 Siguiendo de HOF. Python tiene funciones a las que les podemos mandar funciones (preferiblemente se mandan **lambda functions**).
 
 Map es una función con la que podemos hacer transformación de datos por medio del envío de funciones.

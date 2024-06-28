@@ -1,5 +1,7 @@
 # Playground 1: Elimina elementos duplicados usando conjuntos
 
+[◀️](./../README.md)
+
 Para resolver este desafío, debes escribir un algoritmo que elimine los elementos repetidos para obtener un conjunto único llamado `new_set`.
 
 Este algoritmo recibirá como entrada cuatro conjuntos de países, estos países serán de todo el continente americano divididos de la siguiente manera:
